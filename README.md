@@ -1,5 +1,15 @@
 # Machine-learning-toolkits-with-python
-Machine learning toolkits with Python
+Practical machine learning toolkits with Python 
+
+## Ensemble methods (Bagging classifiers vs. Voting classifiers)
+
+- Bagging & voting classifiers with Scikit-learn
+- "Ensembles are well established as a method for obtaining highly accurate classiers by combining less accurate ones." (Dietterich 2000)
+- Related papers
+ 1) Dietterich, T. G. (2000). Ensemble methods in machine learning. Multiple classifier systems, 1857, 1-15.
+ 2) Breiman, L. (1996). Bagging predictors. Machine learning, 24(2), 123-140.
+
+![alt text](http://www.datakit.cn/images/machinelearning/EnsembleLearning_Combining_classifiers.jpg)
 
 ## Hyperparmeter tuning (Grid search vs. Random search)
 
