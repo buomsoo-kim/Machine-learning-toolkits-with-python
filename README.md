@@ -11,6 +11,17 @@ Practical machine learning toolkits with Python
 
 ![alt text](http://www.datakit.cn/images/machinelearning/EnsembleLearning_Combining_classifiers.jpg)
 
+## Evaluation metrics for unbalanced data (ROC vs Informedness)
+- ROC curve & Bookmakers' informedness/markedness with Scikit-learn
+- "ROC graphs are a very useful tool for visualizing and evaluating classifiers. They are able to provide a richer measure of classification performance than scalar measures such as accuracy, error rate or error cost." (Fawcett 2006)
+- "Note that while Informedness is a deep measure of how consistently the Predictor predicts the Outcome by combining surface measures about what proportion of Outcomes are correctly predicted, Markedness is a deep measure of how consistently the Outcome has the Predictor as a Marker by combining surface measures about what proportion of Predictions are correct. " (Powers 2011)
+- Related papers
+ 1) Fawcett, T. (2006). An introduction to ROC analysis. Pattern recognition letters, 27(8), 861-874.
+ 2) Powers, D. M. (2011). Evaluation: from precision, recall and F-measure to ROC, informedness, markedness and correlation.
+ 
+![alt text](https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/ROC_curves.svg/300px-ROC_curves.svg.png)
+
+
 ## Hyperparmeter tuning (Grid search vs. Random search)
 
 - Grid search & random search with Scikit-learn
