@@ -45,3 +45,12 @@ Practical machine learning toolkits with Python
 - Related paper: Kohavi, R. (1995, August). A study of cross-validation and bootstrap for accuracy estimation and model selection. In Ijcai (Vol. 14, No. 2, pp. 1137-1145).
 
 ![alt_text](https://sebastianraschka.com/images/faq/evaluate-a-model/k-fold.png)
+
+
+## Optimization methods (first-order vs second-order)
+
+- Adam & L-bfgs optimization for neural networks
+- "The method is straightforward to implement, is computationally efficient, has little memory requirements, is invariant to diagonal rescaling of the gradients, and is well suited for problems that are large in terms of data and/or parameters" (Kingma and Ba 2015)
+- "Our numerical tests indicate that the L-BFGS method is faster than the method of Buckley and LeNir, and is better able to use additional storage to accelerate convergence" (Liu and Nocedal 1989)
+
+![alt_text](http://i.imgur.com/pD0hWu5.gif?1)
