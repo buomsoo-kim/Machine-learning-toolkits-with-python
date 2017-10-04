@@ -54,3 +54,10 @@ Practical machine learning toolkits with Python
 - "Our numerical tests indicate that the L-BFGS method is faster than the method of Buckley and LeNir, and is better able to use additional storage to accelerate convergence" (Liu and Nocedal 1989)
 
 ![alt_text](http://i.imgur.com/pD0hWu5.gif?1)
+
+## Tradeoff when using SGD (batch_size and learning_rate)
+
+- It is widely acknowledged that learning rate should be lessened when using small batch SGD compared to when using large batch SGD. In other words, as the variance of each batch is reduced when using large batch SGD, bigger steps are allowed.
+- "one must leverage certain computational tools to benefit from mini-batching in practice." (Bottou et al 2017)
+
+![alt_text](https://i.stack.imgur.com/lU3sx.png)
