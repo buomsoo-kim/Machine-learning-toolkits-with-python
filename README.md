@@ -1,6 +1,12 @@
 # Machine-learning-toolkits-with-python
 Practical machine learning toolkits with Python 
 
+## Assessing performance of a regression model (MAE vs MSE)
+
+- In general, MSE or RMSE is employed to not only as a loss function of a regression model, but also to assess the performance of such model. Nevertheless, some claim that MSE is not an appropriate measure of average model performance.
+- "Our findings indicate that MAE is a more natural measure of average error, and (unlike RMSE) is unambiguous" (Willmott and Matsuura 2005)
+- "Instead, a combination of metrics, including but certainly not limited to RMSEs and MAEs, are often required to assess model performance" (Chai and Draxler 2014)
+
 ## Ensemble methods (Bagging classifiers vs. Voting classifiers)
 
 - Bagging & voting classifiers with Scikit-learn
