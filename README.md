@@ -6,6 +6,9 @@ Practical machine learning toolkits with Python
 - In general, MSE or RMSE is employed to not only as a loss function of a regression model, but also to assess the performance of such model. Nevertheless, some claim that MSE is not an appropriate measure of average model performance.
 - "Our findings indicate that MAE is a more natural measure of average error, and (unlike RMSE) is unambiguous" (Willmott and Matsuura 2005)
 - "Instead, a combination of metrics, including but certainly not limited to RMSEs and MAEs, are often required to assess model performance" (Chai and Draxler 2014)
+-Related papers
+1) Willmott, C. J., & Matsuura, K. (2005). Advantages of the mean absolute error (MAE) over the root mean square error (RMSE) in assessing average model performance. Climate research, 30(1), 79-82.
+2) Chai, T., & Draxler, R. R. (2014). Root mean square error (RMSE) or mean absolute error (MAE)?–Arguments against avoiding RMSE in the literature. Geoscientific Model Development, 7(3), 1247-1250.
 
 ## Ensemble methods (Bagging classifiers vs. Voting classifiers)
 
@@ -60,6 +63,15 @@ Practical machine learning toolkits with Python
 - "Our numerical tests indicate that the L-BFGS method is faster than the method of Buckley and LeNir, and is better able to use additional storage to accelerate convergence" (Liu and Nocedal 1989)
 
 ![alt_text](http://i.imgur.com/pD0hWu5.gif?1)
+
+## Regularization and feature selection (L1 vs L2 regularization)
+
+- L1 & L2 regularization
+- "unless the training set size is large relative to the dimension of the input, some special mechanism - such as regularization, which encourages the fitted parameters to be small - is usually needed to prevent overfitting" (Ng 2004)
+- "It has frequently been observed that L1 regularization in many models causes many parameters equal to zero, so that the parameter vector is sparse. This makes it a natural candidate in feature selection settings, where we believe that many features should be ignored." (Ng 2004)
+- Related paper: Ng, A. Y. (2004, July). Feature selection, L 1 vs. L 2 regularization, and rotational invariance. In Proceedings of the twenty-first international conference on Machine learning (p. 78). ACM.
+
+![alt_text](http://kubicode.me/img/Regularization/l1l2.png)
 
 ## Tradeoff when using SGD (batch_size and learning_rate)
 
